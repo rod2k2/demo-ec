@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3308/ec_vendor?useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: vendor
+    password: report
+server:
+  port: 8082
+logging:
+  level:
+     org.springframework.web: ERROR
+mybatis:
+  type-aliases-package: net.rod.demo.vendor.model
