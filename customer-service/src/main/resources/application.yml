@@ -2,4 +2,4 @@
 server:
   servlet:
     context-path: /customer
-  port: 8081
+  port: 3081

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package customer;
+
+option java_package = "net.rod.demo.customer";
+message CustomerVoList{
+  repeated CustomerVo customerVos = 1;
+}
+message CustomerVo {
+  int32 id = 1;
+  string name = 2;
+  string address = 3;
+  string email = 4 ;
+  string phone = 5;
+}
+
