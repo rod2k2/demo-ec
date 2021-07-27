@@ -17,7 +17,7 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public List<CustomerVo> getCustomerList(CustomerQueryVo customerQueryVo) {
 
-        int mockDataSize = 50000;
+        int mockDataSize = 50;
         List<CustomerVo> customerList  = new ArrayList<>();
         for (int i=0;i<=mockDataSize;i++){
             CustomerVo vo = getCustomerVo();

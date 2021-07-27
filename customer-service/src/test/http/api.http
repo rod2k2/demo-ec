@@ -1,0 +1,11 @@
+###
+PUT http://localhost:3081/api/customers/{{id}}
+
+### test load All customer
+GET http://{{host}}:{{port}}/{{contextPath}}/api/customers
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
