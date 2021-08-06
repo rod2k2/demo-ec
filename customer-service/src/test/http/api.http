@@ -1,5 +1,5 @@
 ###
-PUT http://localhost:3081/api/customers/{{id}}
+PUT http://{{host}}:{{port}}/{{contextPath}}/api/customers/1
 
 ### test load All customer
 GET http://{{host}}:{{port}}/{{contextPath}}/api/customers

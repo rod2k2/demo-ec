@@ -3,3 +3,11 @@ server:
   servlet:
     context-path: /customer
   port: 3081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ec_cust
+    username: customer
+    password: synnex
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
